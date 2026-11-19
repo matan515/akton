@@ -1,4 +1,5 @@
-import stepMotor;
+import stepMotor
+import camra
 
 motorLeft = stepMotor(0,0,0,0)
 motorRight = stepMotor(0,0,0,0)
@@ -25,6 +26,10 @@ def main():
     right()
     BackWard()
     BackWard()
+    cameraLefr = camra.Camera(0)
+    cameraRight = camra.Camera(1)
+    cameraLefr.open()
+    cameraRight.open()
 
 if __name__ =="__main__":
     main()
