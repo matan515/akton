@@ -25,3 +25,6 @@ def main():
     right()
     BackWard()
     BackWard()
+
+if __name__ =="__main__":
+    main()
